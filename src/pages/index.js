@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import latenight from '../assets/images/latenight.png';
+import pwspic from '../assets/images/pwspic.png';
+import vida from '../assets/images/vida.png';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -35,16 +35,14 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
+            Wyncode graduate I am a Web Developer
             <br />
-            eget augue amet aliquet nisl cep donec
+            Web Developer for Prophecy Web Solutions
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Skill in many language and with many time experience using
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            JavaScript | ReactJS | CSS & SCSS | Ruby On Rails
           </p>
         </header>
         <ul className="icons major">
@@ -70,49 +68,67 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={latenight} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
+            <a href="https://latenightmunchies.herokuapp.com/" target="blank">
+              Late Night Munchies
+            </a>
             <br />
-            sed ullamcorper
+            Wyncode Project
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Platform that allows users to search for a wide variety of
+            restaurants in every city <br />
+            Utilized Yelp API allowing the site to render open restaurants
+            matches based on user query <br />
+            Technology used: JavaScript, React, HTML/CSS, Express, Axios,
+            Bootstrap and NPM libraries
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={pwspic} alt="" />
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            <a href="https://sustainablecleaning.net/" target="blank">
+              Sustainable Cleaning
+            </a>
             <br />
-            elementum magna
+            Prophecy Web Solutions Project
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Platform that allows users to search for a wide variety of
+            restaurants in every city <br />
+            Utilized Yelp API allowing the site to render open restaurants
+            matches based on user query <br />
+            Technology used: JavaScript, React, HTML/CSS, Express, Axios,
+            Bootstrap and NPM libraries
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={vida} alt="" />
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
+            <a href="https://vidahealing.net/" target="blank">
+              Vida Healing
+            </a>
             <br />
-            sed condimentum
+            Prophecy Web Solutions Project
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Platform that allows users to search for a wide variety of
+            restaurants in every city <br />
+            Utilized Yelp API allowing the site to render open restaurants
+            matches based on user query <br />
+            Technology used: JavaScript, React, HTML/CSS, Express, Axios,
+            Bootstrap and NPM libraries
           </p>
         </div>
       </section>
