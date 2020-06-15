@@ -139,8 +139,8 @@ const IndexPage = () => (
         <header className="major">
           <h2>Accumsan mus tortor nunc aliquet</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Programming is like sex. One mistake and you have to support it for
+            the rest of your life.
             <br />
             fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
             ullamcorper.
