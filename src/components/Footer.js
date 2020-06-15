@@ -17,7 +17,7 @@ export default function Footer() {
       </ul>
       <ul className="copyright">
         <li>&copy; 2020</li>
-        <li>JOSE RANGEL</li>
+        <li>JOSE DANIEL RANGEL</li>
       </ul>
     </footer>
   );
