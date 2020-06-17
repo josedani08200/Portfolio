@@ -24,11 +24,11 @@ module.exports = {
       name: 'Twitter',
       url: 'https://www.linkedin.com/in/jose-daniel-rangel/',
     },
-    {
-      style: 'solid',
-      icon: 'fa-envelope',
-      name: 'Email',
-      url: 'jose.dani08200@gmail.com',
-    },
+    // {
+    //   style: 'solid',
+    //   icon: 'fa-envelope',
+    //   name: 'Email',
+    //   url: 'jose.dani08200@gmail.com',
+    // },
   ],
 };
