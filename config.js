@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'jose portfolio', // <title>
-  manifestName: 'Spectral',
+  manifestName: 'Home',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       style: 'brands',
-      icon: 'fa-twitter',
+      icon: 'fa-linkedin',
       name: 'Twitter',
       url: 'https://www.linkedin.com/in/jose-daniel-rangel/',
     },

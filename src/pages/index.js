@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
+import JOSE_RANGEL_RESUME from '../assets/images/JOSE_RANGEL_RESUME.pdf';
+
 import latenight from '../assets/images/latenight.png';
 import pwspic from '../assets/images/pwspic.png';
 import vida from '../assets/images/vida.png';
@@ -35,15 +37,15 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Wyncode graduate I am a Web Developer
+            Wyncode graduate | Full Stack Web Dev Engineer |
             <br />
-            Web Developer for Prophecy Web Solutions
+            Operations Director and Web Developer for Prophecy Web Solutions
           </h2>
-          <p>
+          {/* <p>
             Skill in many language and with many time experience using
             <br />
             JavaScript | ReactJS | CSS & SCSS | Ruby On Rails
-          </p>
+          </p> */}
         </header>
         <ul className="icons major">
           <li>
@@ -71,20 +73,15 @@ const IndexPage = () => (
           <img src={latenight} alt="" />
         </div>
         <div className="content">
-          <h2>
-            <a href="https://latenightmunchies.herokuapp.com/" target="blank">
-              Late Night Munchies
-            </a>
-            <br />
-            Wyncode Project
-          </h2>
+          <h3>
+            <a href="https://latenightmunchies.herokuapp.com/" target="blank">Late Night Munchies | Wyncode Project</a>
+          </h3>
           <p>
-            Platform that allows users to search for a wide variety of
-            restaurants in every city <br />
-            Utilized Yelp API allowing the site to render open restaurants
-            matches based on user query <br />
+            PLATFORM THAT ALLOWS USERS TO SEARCH FOR A VARIETY OF RESTRAURANTS IN EVERY CITY</p>
+          <p>
             Technology used: JavaScript, React, HTML/CSS, Express, Axios,
-            Bootstrap and NPM libraries
+            Bootstrap and NPM libraries. Utilized Yelp API allowing the site to render open restaurants matches based on user query
+
           </p>
         </div>
       </section>
@@ -93,20 +90,15 @@ const IndexPage = () => (
           <img src={pwspic} alt="" />
         </div>
         <div className="content">
-          <h2>
-            <a href="https://sustainablecleaning.net/" target="blank">
-              Sustainable Cleaning
-            </a>
-            <br />
-            Prophecy Web Solutions Project
-          </h2>
+          <h3>
+            <a href="https://sustainablecleaning.net/" target="blank">Sustainable Cleaning | Prophecy Web Solutions Project</a>
+          </h3>
           <p>
-            Platform that allows users to search for a wide variety of
-            restaurants in every city <br />
-            Utilized Yelp API allowing the site to render open restaurants
-            matches based on user query <br />
-            Technology used: JavaScript, React, HTML/CSS, Express, Axios,
-            Bootstrap and NPM libraries
+            HIGH END LUXURY RETAIL CLEANING SERVICES + ENVIROMENTALLY CONSCIOUS CLEANING PRODUCTS <br />
+          </p>
+          <p>
+            Technology used: React, Javascript, SCSS and SASS compilers, HTML, Netlify Hosting and Management, and Trello for Project Management
+
           </p>
         </div>
       </section>
@@ -115,20 +107,14 @@ const IndexPage = () => (
           <img src={vida} alt="" />
         </div>
         <div className="content">
-          <h2>
-            <a href="https://vidahealing.net/" target="blank">
-              Vida Healing
-            </a>
-            <br />
-            Prophecy Web Solutions Project
-          </h2>
+          <h3>
+            <a href="https://vidahealing.net/" target="blank">Vida Healing |  Prophecy Web Solutions Project</a>
+          </h3>
           <p>
-            Platform that allows users to search for a wide variety of
-            restaurants in every city <br />
-            Utilized Yelp API allowing the site to render open restaurants
-            matches based on user query <br />
-            Technology used: JavaScript, React, HTML/CSS, Express, Axios,
-            Bootstrap and NPM libraries
+            A MOBILE AND WEB BASED BUSINESS APPLICATION | INDIVIDUAL, GROUP, MARRIAGE, AND COUPLES THERAPY
+          </p>
+          <p>
+            Technology used: React, Javascript, SCSS and SASS compilers, HTML, Netlify Hosting and Management, and Trello for Project Management
           </p>
         </div>
       </section>
@@ -137,56 +123,46 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Coding Languages and Frameworks</h2>
           <p>
-            Programming is like sex. One mistake and you have to support it for
-            the rest of your life.
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            "Programming is like sex. One mistake and you have to support it for
+            the rest of your life"
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+          <li className="icon solid fa-radiation">
+            <h2>React</h2>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+              "JavaScript open-source library for building user interfaces. React can be used as a base in the development of single-page or mobile applications"</p>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+          <li className="icon solid fa-jedi">
+            <h3>JavaScript</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              "JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>Ruby</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              "A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="icon solid fa-dice-d20">
+            <h3>Rails</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages."
             </p>
           </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+          <li className="icon solid fa-satellite">
+            <h3>SQL / postgeSQL</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              "Domain-specific database management languages used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system."
             </p>
           </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+          <li className="icon solid fa-quidditch">
+            <h3>Python</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              "Python is an interpreted, high-level, general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace."
             </p>
           </li>
         </ul>
@@ -196,21 +172,12 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
+          <h2>Download My Resume</h2>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
+            <a href={JOSE_RANGEL_RESUME} className="button fit primary" title="DOWNLOAD JOSES' RESUME" download="Resume_Jose">
+              Click Here!
             </a>
           </li>
         </ul>
