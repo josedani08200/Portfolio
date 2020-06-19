@@ -1,3 +1,1 @@
-### Jose Rangel Portofolio
-
-# Coming Soon!!!
+# Visit my portfolio here: https://www.josedanielrangel.com/
